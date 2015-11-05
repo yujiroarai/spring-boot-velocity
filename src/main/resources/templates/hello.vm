@@ -1,1 +1,24 @@
-Hello!!
+<html>
+<body>
+  <h2>Controllerから受け取った値$fromController</h2>
+  <p>#=>$fromController</p>
+
+  <h2>\#foreach</h2>
+  <p>
+    <ul>
+      #foreach($data in $list)
+        <li>$data</li>
+      #end
+    </ul>
+  </p>
+  
+  <h2>\#if</h2>
+  <p>
+    #if(true)
+      表示する
+    #else
+      表示しない
+    #end
+  </p>
+</body>
+</html>
