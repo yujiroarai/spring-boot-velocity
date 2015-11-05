@@ -6,5 +6,5 @@ mvn spring-boot:run
 
 ## リンク
 
-- [テンプレートディレクトリ](./src/main/java/resources/templates)
+- [テンプレートディレクトリ](https://github.com/yujiroarai/spring-boot-velocity/tree/master/src/main/resources/templates)
 - [Controller](./src/main/java/Example.java)
